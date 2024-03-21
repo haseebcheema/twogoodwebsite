@@ -98,7 +98,7 @@ html, body{
     text-decoration: none;
     color: var(--black);
     opacity: 0.9;
-    font-size: 12.5px;
+    font-size: 0.9vw;
     font-weight: 500;
     border-bottom: 1px solid var(--black);
     padding-bottom: 0.1vw;
@@ -116,7 +116,7 @@ html, body{
     font-family: "helvetica";
     color: var(--black);
     opacity: 0.9;
-    font-size: 12.5px;
+    font-size: 0.9vw;
     font-weight: 500;
 }
 
