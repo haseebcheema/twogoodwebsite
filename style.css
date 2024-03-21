@@ -42,16 +42,16 @@ html, body{
 #pageone{
     width: 100%;
     min-height: 100vh;
-    padding-top: 17vw;
+    padding-top: 16.4vw;
     padding-left: 1.8vw;
 }
 
 #pageone h1{
     font-family: "futura";
-    font-size: 16vw;
+    font-size: 16.2vw;
     text-transform: uppercase;
     width: fit-content;
-    line-height: 13vw;
+    line-height: 13.7vw;
     letter-spacing: -10px;
 }
 
