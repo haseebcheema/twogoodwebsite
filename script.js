@@ -1,4 +1,5 @@
 
+// smooth locomotive scroll
 function loadLocomotiveScroll(){
     const scroll = new LocomotiveScroll({
         el: document.querySelector('#main'),
