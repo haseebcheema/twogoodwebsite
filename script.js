@@ -1,8 +1,17 @@
 
-// animations on pageone using gsap
+function loadLocomotiveScroll(){
+    const scroll = new LocomotiveScroll({
+        el: document.querySelector('#main'),
+        smooth: true
+    });
+}
+
+// animations on hero using gsap
 function loadingAnimation(){    
     var tl = gsap.timeline();
-    tl.from("#pageone h1", {
+
+    // animation on headings
+    tl.from("#hero h1", {
         y: 50,
         opacity: 0,
         delay: 0.5,
@@ -10,6 +19,7 @@ function loadingAnimation(){
         stagger: 0.3
     })
 
+    // animation on images
     tl.from("#imagecontainer img", {
         scale: 0.8,
         opacity: 0,
@@ -18,4 +28,5 @@ function loadingAnimation(){
 }
 
 // calling functions
+loadLocomotiveScroll();
 loadingAnimation();
