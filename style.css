@@ -144,3 +144,52 @@ hr{
     object-fit: cover;
     scale: 1.1;
 }
+
+/* media queries for responsiveness */
+@media (max-width:600px) {
+    #hero{
+        min-height: 65vh;
+        padding-top: 30vw;
+        padding-bottom: 5vw;
+    }
+    
+    #hero h1{
+        font-size: 16vw;;
+        letter-spacing: -3px;
+    }
+
+    #shop{
+        min-height: 100vh;
+    }
+    
+    #shopheadings h1{
+        font-size: 10vw;
+        text-align: center;
+    }
+    
+    #shopheadings a{
+        width: 40%;
+        font-size: 3.2vw;
+        text-align: center;
+        font-weight: 500;
+        border-bottom: 1px solid var(--black);
+        padding-top: 10vw;
+        padding-bottom: 1.5vw;
+    }
+    
+    #shoplines h5{
+        padding-top: 4vw;
+        font-size: 3.2vw;
+    }
+    
+    #shoproducts{
+        padding: 2vw 2vw;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+    #shoproducts #elem{
+        width: 100%;
+        margin: 2vw;
+    }
+}
