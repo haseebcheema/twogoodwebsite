@@ -42,7 +42,7 @@ html, body{
 #pageone{
     width: 100%;
     min-height: 100vh;
-    padding-top: 16.4vw;
+    padding-top: 16vw;
     padding-left: 1.8vw;
 }
 
@@ -51,13 +51,13 @@ html, body{
     font-size: 16.2vw;
     text-transform: uppercase;
     width: fit-content;
-    line-height: 13.7vw;
+    line-height: 13.8vw;
     letter-spacing: -10px;
 }
 
 #imagecontainer{
     width: 99%;
-    padding-top: 2vw;
+    padding: 2vw 0.5vw;
 }
 
 #imagecontainer img{

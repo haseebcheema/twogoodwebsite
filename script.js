@@ -1,6 +1,6 @@
 
 // animations on pageone using gsap
-function animatePage1(){    
+function loadingAnimation(){    
     var tl = gsap.timeline();
     tl.from("#pageone h1", {
         y: 50,
@@ -11,11 +11,11 @@ function animatePage1(){
     })
 
     tl.from("#imagecontainer img", {
-        y: 10,
+        scale: 0.8,
         opacity: 0,
-        duration: 0.8
+        duration: 0.6
     })
 }
 
 // calling functions
-animatePage1();
+loadingAnimation();
