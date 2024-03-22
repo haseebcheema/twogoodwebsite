@@ -89,6 +89,9 @@ html, body{
     color: var(--black);
     font-size: 1.1vw;
     cursor: pointer;
+    border-radius: 30px;
+    padding: 0.8vw 1vw;
+    background-color: var(--grey);
 }
 
 #icons i:nth-child(2):hover{
