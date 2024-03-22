@@ -42,7 +42,6 @@ function animateLinks(){
         scrollTrigger: {
             trigger: "#hero",
             scroller: "#main",
-            markers: true,
             start: "top 0%",
             end: "top -5%",
             scrub: true
