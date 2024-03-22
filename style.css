@@ -109,7 +109,6 @@ html, body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border-bottom: 1px solid var(--black); */
 }
 
 #shoplines h5{
@@ -170,6 +169,54 @@ hr{
 
 #elem #categories h6:nth-child(3){
     opacity: 0.9;
+}
+
+#support{
+    width: 100%;
+    padding: 4vw 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#support #supportleft{
+    width:fit-content;
+}
+
+#support #supportleft p{
+    font-family: "futura";
+    font-size: 4vw;
+    letter-spacing: -2px;
+    padding-bottom: 2vw;
+    line-height: 3.8vw;
+}
+
+#support #supportright{
+    width: 32.2%;
+    padding-right: 8.5vw;
+    padding-top: 7.8vw;
+}
+
+#support #supportright p{
+    line-height: 1.8vw;
+    padding-bottom: 1vw;
+}
+
+#shopsupport{
+    margin-top: 2vw;
+}
+
+#support #supportright a{
+    font-family: "socialmono";
+    width: fit-content;
+    display: flex;
+    text-decoration: none;
+    color: var(--black);
+    opacity: 0.9;
+    font-size: 1vw;
+    font-weight: 500;
+    border-bottom: 1px solid var(--black);
+    padding-bottom: 0.1vw;
 }
 
 /* media queries for responsiveness */
