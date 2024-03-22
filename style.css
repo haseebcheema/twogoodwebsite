@@ -293,39 +293,22 @@ hr{
     padding-bottom: 1vw;
 }
 
-#shopsupport{
-    margin-top: 2vw;
+#supportright button{
+    font-family: "helvetica";
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 30px;
+    border-style: none;
+    padding: 1.5vw 5.2vw;
+    font-size: 0.9vw;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    margin-top: 3vw;
 }
 
-#support #shopsupport a{
-    font-family: "socialmono";
-    width: fit-content;
-    display: flex;
-    text-decoration: none;
-    color: var(--black);
-    opacity: 0.9;
-    font-size: 1vw;
-    font-weight: 500;
-    padding-bottom: 0.1vw;
-    word-spacing: -3px;
-}
-
-#shopsupport a::after{
-    content: '';
-    position: absolute;
-    width: 8.5%;
-    transform: scaleX(0);
-    height: 1px;
-    bottom: 10.8%;
-    left: 67%;
-    background-color: var(---blurgrey);
-    transform-origin: bottom right;
-    transition: transform 0.3s ease-out;
-}
-
-#shopsupport a:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+#supportright button:hover{
+    color: var(---blurgrey);
 }
 
 #products{
