@@ -390,6 +390,34 @@ hr{
 
 /* media queries for responsiveness */
 @media (max-width:600px) {
+
+    #nav{
+        align-items: center;
+    }
+
+    #navleft svg{
+        height: 80px;
+        width: 70px;
+    }
+    
+    #navright{
+        gap: 10px;
+    }
+    
+    #links{
+        gap: 10px;
+    }
+    
+    #links a{
+        font-size: 2.5vw;
+    }
+    
+    #icons{
+        gap: 10px;
+        font-size: 2.5vw;
+        padding: 0.8vw 2vw;
+    }
+    
     #hero{
         min-height: 65vh;
         padding-top: 30vw;
