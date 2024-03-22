@@ -55,6 +55,14 @@ html, body{
     z-index: 100;
 }
 
+#navleft{
+    height: 82px;
+}
+
+#navleft svg{
+    display: block;
+}
+
 #navright{
     display: flex;
     justify-content: space-between;
