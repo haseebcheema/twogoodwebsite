@@ -115,14 +115,14 @@ html, body{
     padding-bottom: 0.1vw;
 }
 
-#shop #shoplines{
+#lines{
     padding: 5vw 2vw 0.1vw 2vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#shoplines h5{
+#lines h5{
     font-family: "helvetica";
     color: var(--black);
     opacity: 0.9;
@@ -263,7 +263,7 @@ hr{
     font-family: "helvetica";
     color: var(--black);
     opacity: 0.9;
-    font-size: 0/9vw;
+    font-size: 0.9vw;
     font-weight: 500;
     line-height: 2vw;
     padding-top: 3vw;
@@ -309,7 +309,7 @@ hr{
         padding-bottom: 1.5vw;
     }
     
-    #shoplines h5{
+    #lines h5{
         padding-top: 4vw;
         font-size: 3.2vw;
     }
