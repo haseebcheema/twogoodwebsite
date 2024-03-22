@@ -173,8 +173,26 @@ html, body{
     opacity: 0.9;
     font-size: 0.9vw;
     font-weight: 500;
-    border-bottom: 1px solid var(--black);
     padding-bottom: 0.1vw;
+    padding-bottom: 0.4vw;
+}
+
+#shopheadings a::after{
+    content: '';
+    position: absolute;
+    width: 30.6%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 34.6%;
+    background-color: var(---blurgrey);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+#shopheadings a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 #lines{
@@ -288,8 +306,26 @@ hr{
     opacity: 0.9;
     font-size: 1vw;
     font-weight: 500;
-    border-bottom: 1px solid var(--black);
     padding-bottom: 0.1vw;
+    word-spacing: -3px;
+}
+
+#shopsupport a::after{
+    content: '';
+    position: absolute;
+    width: 8.5%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 10.8%;
+    left: 67%;
+    background-color: var(---blurgrey);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+#shopsupport a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 #products{
