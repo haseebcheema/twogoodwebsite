@@ -72,8 +72,6 @@ html, body{
 
 #links{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     gap: 60px;
 }
 
@@ -501,7 +499,7 @@ hr{
 
 #endpart{
     width: 100%;
-    min-height: 50vh;
+    min-height: 40vh;
     padding: 0 2vw;
 }
 
