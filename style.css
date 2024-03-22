@@ -278,6 +278,53 @@ hr{
     font-weight: 500;
 }
 
+#messages{
+    width: 100%;
+    min-height: 100vh;
+}
+
+#messages #sendmsg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vw 0;
+}
+
+#sendmsg h1{
+    font-family: "futura";
+    text-align: center;
+    padding: 0 8vw 4vw 8vw;
+    font-size: 5.5vw;
+    letter-spacing: -4px;
+    line-height: 5vw;
+}
+
+#sendmsg button{
+    font-family: "helvetica";
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 30px;
+    border-style: none;
+    padding: 1.5vw 5.2vw;
+    font-size: 0.9vw;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+#sendmsg button:hover{
+    color: var(---blurgrey);
+}
+
+#sendmsg h5{
+    font-family: "helvetica";
+    padding-top: 2vw;
+    font-size: 1.1vw;
+    font-weight: 400;
+    line-height: 1.4vw;
+}
+
 /* media queries for responsiveness */
 @media (max-width:600px) {
     #hero{
