@@ -28,6 +28,35 @@ function loadingAnimation(){
     })
 }
 
+function movingCircle(){
+    var cursor = document.querySelector("#cursor");
+    document.addEventListener("mousemove", function(dets){
+        gsap.to(cursor, {
+            top: dets.clientY,
+            left: dets.clientX
+        });
+    });
+}
+
+// preview circle on products page
+function previewCircle(){
+    var items = document.querySelectorAll("#items");
+    items.forEach(function(i){
+        i.addEventListener("mouseenter", function(){
+            gsap.to("#cursor", {
+                transform: "translate(-50%, -50%) scale(1)"
+            });
+        });
+        i.addEventListener("mouseleave", function(){
+            gsap.to("#cursor", {
+                transform: "translate(-50%, -50%) scale(0)"
+            });
+        });
+    });
+}
+
 // calling functions
 loadLocomotiveScroll();
 loadingAnimation();
+movingCircle();
+previewCircle();

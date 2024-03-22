@@ -34,6 +34,17 @@ html, body{
     height: 100%;
 }
 
+#cursor{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(156, 151, 151);
+    opacity: 0.2;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 1;
+    transform: translate(-50%, -50%) scale(0);
+}
+
 #main{
     width: 100%;
     background-color: var(--grey);
