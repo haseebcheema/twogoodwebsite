@@ -613,13 +613,14 @@ hr{
         padding-bottom: 1.5vw;
     }
 
-    #shopsupport{
-        margin-top: 5vw;
+    #supportright{
         display: flex;
-        justify-content: center;
+        flex-direction: column;
     }
 
-    #support #shopsupport a{
+    #supportright button{
+        border-radius: 30px;
+        padding: 3vw 6vw;
         font-size: 4vw;
     }
 
