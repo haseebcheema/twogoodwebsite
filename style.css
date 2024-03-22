@@ -311,7 +311,7 @@ hr{
     
     #lines h5{
         padding-top: 4vw;
-        font-size: 3.2vw;
+        font-size: 2.6vw;
     }
     
     #shoproducts{
@@ -339,6 +339,7 @@ hr{
 
     #support #supportright{
         width: 100%;
+        padding: 4vw 3vw;
     }
 
     #support #supportright p{
@@ -354,6 +355,24 @@ hr{
     }
 
     #support #shopsupport a{
-        font-size: 5vw;
+        font-size: 4vw;
+    }
+
+    #products{
+        flex-direction: column;
+    }
+    
+    #products #items{
+        width: 100%;
+        height: 60vh;
+    }
+    
+    #items #details h5{
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+    
+    #items #details h6{
+        font-size: 3vw;
     }
 }
