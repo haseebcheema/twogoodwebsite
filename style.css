@@ -390,7 +390,7 @@ hr{
 
 #footer{
     width: 100%;
-    height: 50vh;
+    min-height: 50vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -623,7 +623,7 @@ hr{
 
     #messages{
         width: 100%;
-        min-height: 100vh;
+        min-height: 60vh;
     }
     
     #sendmsg h1{
@@ -642,5 +642,66 @@ hr{
         padding-top: 5vw;
         font-size: 3.2vw;
         line-height: 3vw;
+    }
+
+    #footer{
+        flex-direction: column;
+    }
+    
+    #footerleft{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+    }
+    
+    #footerleft h5{
+        font-size: 6vw;
+    }
+    
+    #footerleft a{
+        font-size: 6vw;
+        line-height: 8vw;
+    }
+    
+    #footermiddle{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #footermiddle h1{
+        font-size: 12vw;
+        line-height: 11vw;
+        margin: 10vw 0;
+    }
+    
+    #footerright{
+        align-items: center;
+        width: 100%;
+        width: 100%;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+    }
+    
+    #footerright h5{
+        font-size: 6vw;
+    }
+    
+    #footerright a{
+        font-size: 6vw;
+        line-height: 8vw;
+    }
+    
+    #endheadings h5{
+        font-size: 2.5vw;
+    }
+    
+    #endpart p{
+        width: 90%;
+        font-size: 4vw;
+        line-height: 5vw;
+        margin-top: 2vw;
     }
 }
