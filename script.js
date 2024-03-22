@@ -28,6 +28,7 @@ function loadingAnimation(){
     })
 }
 
+// moving circle with cursor
 function movingCircle(){
     var cursor = document.querySelector("#cursor");
     document.addEventListener("mousemove", function(dets){
@@ -41,12 +42,17 @@ function movingCircle(){
 // preview circle on products page
 function previewCircle(){
     var items = document.querySelectorAll("#items");
+    
     items.forEach(function(i){
+        
+        // preview when hover on items
         i.addEventListener("mouseenter", function(){
             gsap.to("#cursor", {
                 transform: "translate(-50%, -50%) scale(1)"
             });
         });
+
+        // undo preview when hover on items
         i.addEventListener("mouseleave", function(){
             gsap.to("#cursor", {
                 transform: "translate(-50%, -50%) scale(0)"
