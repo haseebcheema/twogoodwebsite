@@ -193,7 +193,7 @@ hr{
 
 #support #supportright{
     width: 32.2%;
-    padding-right: 8.5vw;
+    padding-right: 8.3vw;
     padding-top: 7.8vw;
 }
 
@@ -206,7 +206,7 @@ hr{
     margin-top: 2vw;
 }
 
-#support #supportright a{
+#support #shopsupport a{
     font-family: "socialmono";
     width: fit-content;
     display: flex;
@@ -265,5 +265,37 @@ hr{
     #shoproducts #elem{
         width: 100%;
         margin: 2vw;
+    }
+    
+    #support{
+        flex-direction: column;
+    }
+
+    #support #supportleft p{
+        padding-top: 5vw;
+        font-size: 7vw;
+        letter-spacing: 0;
+        line-height: 7vw;
+        text-align: center;
+    }
+
+    #support #supportright{
+        width: 100%;
+    }
+
+    #support #supportright p{
+        text-align: center;
+        line-height: 6vw;
+        padding-bottom: 1.5vw;
+    }
+
+    #shopsupport{
+        margin-top: 5vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    #support #shopsupport a{
+        font-size: 5vw;
     }
 }
