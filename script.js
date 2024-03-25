@@ -53,6 +53,14 @@ function animateLinks(){
 function loadingAnimation(){    
     var tl = gsap.timeline();
 
+    // animation on nav
+    tl.from("#nav", {
+        y: -10,
+        opacity: 0,
+        delay: 0.6,
+        duration: 0.8
+    })
+
     // animation on headings
     tl.from("#hero h1", {
         y: 50,
